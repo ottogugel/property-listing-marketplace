@@ -1,0 +1,25 @@
+.hider-navbar {
+    position: fixed;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(247, 243, 239);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #00b386;
+    font-size: 26px;
+  }
+  
+.hider-navbar-button {
+    margin: 200px 0 10px 1%;
+    width: 10vw;
+    height: 40px;
+    cursor: pointer;
+    background-color: var(--primary-color);
+    border: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: 18px;
+    
+}

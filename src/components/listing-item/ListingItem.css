@@ -1,0 +1,49 @@
+.listing-item {
+  width: 270px;
+  margin: 0px 25px 40px 25px; /* top right bottom left */
+}
+
+.listing-img {
+  width: 100%; /* 100% here is equal to 380px width of parent*/
+  height: 270px;
+  object-fit: cover; /* whole img adjusts to the width and height */
+  border-radius: 5px;
+}
+
+.listing-details {
+  display: flex;
+  flex-direction: column; /* we want to stack on top of other*/
+  align-items: center; /* here align item will horizontally make items center becz its flex direction as column */
+}
+
+.listing-category {
+  line-height: 22px;
+  margin: 16px 12px 0px 0px;
+  color: rgb(146, 145, 143);
+  cursor: pointer;
+}
+
+.listing-title {
+  font-size: 22px;
+  cursor: pointer;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 600;
+  margin-top: 10px;
+}
+
+.listing-time {
+  font-size: 14px;
+  color: rgb(146, 145, 143);
+  margin-top: 5px;
+}
+
+.listing-description {
+  color: rgb(80, 79, 77);
+  line-height: 22px;
+  margin-top: 5px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 4; /* show only 5 lines after that show ...(dot) */
+  -webkit-box-orient: vertical;
+}

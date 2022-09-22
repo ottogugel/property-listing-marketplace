@@ -1,0 +1,10 @@
+Caso eu precise adicionar o botão de cancelar novamente.
+
+<button
+            onClick={() => {
+            setOpenModal(false);
+            }}
+            id="cancelBtn"
+          >
+            Cancel
+          </button>

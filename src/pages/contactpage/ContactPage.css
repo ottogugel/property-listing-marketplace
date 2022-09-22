@@ -1,0 +1,74 @@
+:root {
+    --bs-blue: #0d6efd;
+    --bs-indigo: #6610f2;
+    --bs-purple: #6f42c1;
+    --bs-pink: #d63384;
+    --bs-red: #dc3545;
+    --bs-orange: #fd7e14;
+    --bs-yellow: #ffc107;
+    --bs-green: #198754;
+    --bs-teal: #00b386;
+    --bs-cyan: #0dcaf0;
+    --bs-white: #fff;
+    --bs-gray: #6c757d;
+    --bs-gray-dark: #343a40;
+    --bs-primary: #0d6efd;
+    --bs-secondary: #6c757d;
+    --bs-success: #198754;
+    --bs-info: #0dcaf0;
+    --bs-warning: #ffc107;
+    --bs-danger: #dc3545;
+    --bs-light: #f8f9fa;
+    --bs-dark: #212529;
+    --bs-font-sans-serif: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    --bs-font-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+    --bs-gradient: linear-gradient(180deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0));
+}
+
+.contact-page-title {
+    color: var(--bs-teal);
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+.form-container{
+    flex-direction: column;
+    /* align-items: center; */
+    gap: 15px;
+    display: flex;
+    padding: 8px;
+}
+
+.txtEmail,
+.txtName,
+.txtQuery {
+    line-height: 18px;
+    border: none;
+    width: 50vw;
+    height: 30px;
+    font-size: 16px;
+    padding: 2px;
+}
+
+
+.container-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.contact-page-btn {
+    background-color: var(--bs-teal);
+    border-radius: 4px;
+    border-color: #00b386;
+    padding: 8px;
+    color: white;
+    cursor: pointer;
+}
+
+.mb-3 {
+    display: flex;
+    justify-content: center;
+}
